@@ -9,6 +9,8 @@ N_SESSIONS_TARGET = 100000
 P_ANON = 0.25
 DAYS_BACK = 365
 
+# =========================
+
 objects = ["Zaino","Valigia","Portafoglio","Cintura","Borsone","Portadocumenti","Scarpe","Portachiavi"]
 objects_arr = f.array(*[f.lit(o) for o in objects])
 
